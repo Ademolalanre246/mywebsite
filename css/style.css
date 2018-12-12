@@ -88,6 +88,11 @@ main {
   
 }
 
+.main-intent {
+    padding: 20px;
+    text-align: justify;
+}
+
 .wrapper {
     width: 90%;
     margin: auto;
