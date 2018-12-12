@@ -4,7 +4,8 @@
   "description": "My Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -16,8 +17,11 @@
     "url": "https://github.com/Ademolalanre246/mywebsite/issues"
   },
   "homepage": "https://github.com/Ademolalanre246/mywebsite#readme",
-  "dependencies": {},
+  "dependencies": {
+    "webpack": "^4.27.1"
+  },
   "devDependencies": {
+    "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
   }
 }
