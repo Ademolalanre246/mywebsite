@@ -18,8 +18,7 @@
   },
   "homepage": "https://github.com/Ademolalanre246/mywebsite#readme",
   "dependencies": {
-    "express": "^4.16.4",
-    "webpack": "^4.27.1"
+    "express": "^4.16.4"
   },
   "devDependencies": {
     "webpack-cli": "^3.1.2",
