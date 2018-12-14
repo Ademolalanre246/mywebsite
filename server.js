@@ -14,7 +14,21 @@ app.get('/index', (req, res) => {
 
 app.get('/portfolio', (req, res) => {
   console.log("Request to portfolio");
-  res.sendFile(path.resolve(__dirname, 'pages/portfolio.html'))
-})
+  res.sendFile(path.resolve(__dirname, 'pages/portfolio.html'));
+});
 
+app.get('/about', (req, res) => {
+  console.log("request to about");
+  res.sendfile(path.resolve(__dirname, 'pages/about.html'));
+});
+
+app.get('/blog',(req, res)  => {
+  console.log("request to blog");
+  res.sendFile(path.resolve(__dirname, 'pages/blog.html'));
+});
+
+app.get('/contact',(req, res) => {
+  console.log("request to contact");
+  res.sendFile(path.resolve(__dirname, 'pages/contact.html'));
+});
 app.listen(port, console.log("Demola.com is now running on " + port));
