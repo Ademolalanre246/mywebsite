@@ -19,7 +19,7 @@ app.get('/portfolio', (req, res) => {
 
 app.get('/about', (req, res) => {
   console.log("request to about");
-  res.sendfile(path.resolve(__dirname, 'pages/about.html'));
+  res.sendFile(path.resolve(__dirname, 'pages/about.html'));
 });
 
 app.get('/blog',(req, res)  => {
