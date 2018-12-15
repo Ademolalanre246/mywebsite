@@ -119,6 +119,13 @@ footer {
     padding: 20px;
 }
 
+.footer-social ul {
+   list-style: none;
+}
+
+.footer-social ul li {
+    display: inline;
+}
 
 .grid-alt {
     width: 80%;
@@ -128,4 +135,16 @@ footer {
 
 .h1-contact {
     text-align: center;
+}
+
+.fa-facebook-square {
+    font-size: 35px;
+}
+
+.fa-github-square {
+    font-size: 35px;
+}
+
+.fa-envelope {
+    font-size: 35px;
 }
