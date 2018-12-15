@@ -116,4 +116,16 @@ main {
 /* Footer starts */
 footer {
     background: brown;
+    padding: 20px;
+}
+
+
+.grid-alt {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.h1-contact {
+    text-align: center;
 }

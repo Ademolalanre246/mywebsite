@@ -1,24 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <title>Contact - DemolaHTML5</title>
+    <link rel="stylesheet" href="../css/foundation.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-    <h1>contact me</h1>
-    <form action="">
-        Name<br/>
-        <input type="text" name="name"><br/>
-        Email<br/>
-        <input type="text" name="Email"><br/>
-        Subject<br/>
-        <input type="text" name="Subject"><br/>
-        <label for="message">Message</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea><br/>
-        <input type="submit" name="submit">
-    </form>
+
+<body class="contact-body">
+    <h1 class="h1-contact">contact me</h1>
+    <div lass="grid-container grid-alt">
+        <div class="grid-x grid-padding-x">
+            <form action="">
+                <div class="large-8 cell large-offset-6">
+                    <label for="name">Name</label>
+                    <input type="text" name="name">
+                </div>
+
+                <div class="large-8 cell large-offset-6">
+                    <label for="email">Email</label>
+                    <input type="text" name="Email">
+                </div>
+
+                <div class="large-8 cell large-offset-6">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="Subject">
+                </div>
+
+                <div class="large-8 cell large-offset-6">
+                    <label for="message">
+                        Message
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </label>
+
+                </div>
+                <div class="large-8 cell large-offset-6">
+                    <input class="button" type="submit" name="submit">
+                </div>
+            </form>
+        </div>
+    </div>
 
 </body>
+
 </html>
